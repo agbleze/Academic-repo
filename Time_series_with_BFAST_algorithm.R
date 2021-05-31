@@ -1,5 +1,5 @@
 ##########################################################################
-#
+###
 # Author        : LINUS AGBLEZE
 # OBJECTIVE     : USE BFAST TO DETECT CHANGES IN NDVI TIME SERIES
 # Input         : NDVI Time Series
@@ -7,7 +7,7 @@
 # OUTPUT FORMAT : LINE GRAPH
 # DATE          : 25th March, 2019
 # 
-#
+###
 ##########################################################################
 #--------------------------------------
 # install packages, execute only onces

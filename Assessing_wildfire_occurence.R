@@ -6,7 +6,7 @@ library(dplyr)
 library(lubridate)
 library(ggplot2)
 dataload = read_csv("StudyArea.csv", col_types = list(UNIT = col_character(), OUTDATED = col_character()), col_names = TRUE)
-selData = select(dataload, ORGANIZATI, YR = YEAR_ACRES, STATE, ACRES = TOTALACRES, CAUSE, STARTDATED)
+selData = select(dataload, ORGANIZATI, YR = YEAR_, STATE, ACRES = TOTALACRES, CAUSE, STARTDATED)
 filData = filter(selData, ACRES >= 1000)
 startTimeData = mutate(filData, DOY = yday(as.Date(STARTDATED, format = '%m/%d/%y%H:%M')))
 #group data by year

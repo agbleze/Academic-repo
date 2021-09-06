@@ -31,3 +31,7 @@ gender <- factor(gender, levels = c("male", "female", "none"), ordered = TRUE)
 nums <- factor(c(1.2, 2.3, 3.4, 4.5))
 as.numeric(levels(nums)[nums])
 
+## converting to factors
+nums <- factor(c(1.2, 2.3, 3.4, 4.5))
+as.numeric(levels(nums)[nums])
+table(german_enterprise_data$q61a)
